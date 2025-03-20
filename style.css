@@ -1,0 +1,214 @@
+.home{
+    /* background-image:url("./images/header-bg-1.jpg"); */
+position: absolute;
+    height: auto;
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #161515 !important; /* Fully transparent */
+        /* z-index: 1000; Ensures it stays above carousel */
+       
+        .navbar-toggler{
+            background-color: #FF432E;
+        }
+        
+    }
+  
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.nav-link:hover{
+    color: #FF432E !important;
+    
+
+}
+
+.container{
+   
+    
+
+    position:absolute;
+ 
+    left: 78%;
+ display: flex;
+ justify-items: center;
+ align-items: center;
+ 
+ top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1100;
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 20px;
+    }
+    .btn{
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 25px;
+        background-color: #FF432E;
+        color: white;
+        transition: all 0.3s;
+        &:hover{
+            background-color: #FF432E;
+            color: white;
+        }
+    }
+}
+
+#carouselExampleControls {
+    position: relative;
+}
+
+span.carousel-control-prev-icon {
+    position: absolute;
+   top: 40%;
+    margin-left: -62px;
+    
+}
+
+span.carousel-control-next-icon {
+    position: absolute;
+   top: 40%;
+    margin-right: -62px;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+.Feature{
+   
+    height: 500px;
+    width: 100%;
+    background-color: #FFFFFF;
+
+
+}
+.icon{
+    position: relative;
+    top: 10%;
+    font-size: 50px;
+    height: 90px!important;
+    width: 90px!important;
+    background-color: #FF432E;
+    color: #f3ebeb;
+
+}
+.Feature_item{
+
+    height: 100px;
+}
+/* ///////////////////////////////////////////////////////// */
+/* Default styles (for larger screens) .navbar-collapse{
+            
+
+
+/* For Tablets (768px and below) */
+@media (max-width: 999px) {
+    .navbar {
+        padding: 10px 15px;
+      
+    }
+.famecontener{
+
+    background-color: #161515!important;
+}
+    .navbar-toggler {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 1); /* Fully dark background */
+
+            height: fit-content;
+            position: relative;
+            top: 40px;
+        width: 950px !important;
+
+    }
+
+    .navbar-nav {
+        flex-direction: column; /* Stack menu items */
+        gap: 40px; /* Space between links */
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 0;
+        font-size: 18px;
+    }
+    .navbar-brand{
+        position: absolute;
+            left: 50px;
+            top: 5px;
+
+    }
+   
+/* ///////////////////////////////////////////////////////////////////// */
+    .Feature{
+        position: absolute;
+        top: 710px;
+        height: 500px;
+        width: 100%;
+        background-color: #a72727;
+    
+    
+    }
+}
+
+/* For Mobile Phones (576px and below) */
+@media (max-width: 576px) {
+    .navbar {
+        padding: 5px 10px;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 15px;
+        top: 5px;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 1); /* Fully dark background */
+        width: 500px !important;
+        height: fit-content;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 15px; /* More space between links */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px; /* Smaller font */
+        padding: 8px 0;
+    }
+    .navbar-brand{
+        position: absolute;
+            left: 50px;
+            top: 5px;
+
+    }
+    
+    /* ////////////////////////////////////////////////////////// */
+    .Feature{
+        position: absolute;
+        top: 410px;
+        height: 500px;
+        width: 100%;
+        background-color: #a72727;
+    
+    
+    }
+}
