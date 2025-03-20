@@ -25,18 +25,18 @@ window.addEventListener("scroll", function () {
   })();
 
   document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent actual form submission
+    event.preventDefault();  
 
     if (this.checkValidity()) {
-      // Reset the form after a slight delay to ensure Bootstrap validation is triggered
+      
       setTimeout(() => {
-        this.reset(); // Clear the form fields
-        this.classList.remove("was-validated"); // Reset validation styling
+        this.reset(); 
+        this.classList.remove("was-validated");  
       }, 100);
 
-      alert("Message sent successfully!"); // Optional: Confirmation message
+      alert("Message sent successfully!");  
     }
 
-    // Add Bootstrap validation styling
+    
     this.classList.add("was-validated");
   });
